@@ -42,7 +42,7 @@ class DataGrid(Dashboard.Item):
                 mui.DataGrid(
                     columns=self.DEFAULT_COLUMNS,
                     rows=data,
-                    pageSize=5,
+                    pageSize=7,
                     rowsPerPageOptions=[5],
                     checkboxSelection=True,
                     disableSelectionOnClick=True,
